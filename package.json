@@ -1,29 +1,32 @@
 {
-  "name": "hopverkefni",
+  "name": "hopverkefni1",
   "version": "1.0.0",
-  "description": "hopaverkefni1",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "browser-sync": "broswer-sync start --server --files index.html styles.css",
     "sass": "node-sass --source-map-embed styles.scss styles.css",
-    "sass-watch": "node-sass -- source-map-embed --watch *.scss -- recursive styles.css",
+    "sass-watch": "node-sass --source-map-embed --watch *.scss --recursive styles.css",
+    "dev": "concurrently npm:sass npm:sass-watch npm:browser-sync",
+    "lint": "stylelint styles.scss --syntax scss",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inb32/Hopverkefni1.git"
+    "url": "git+https://github.com/ves14/Hopaverkefni_1.git"
   },
-  "author": "Yrsa, Inga og Vigdis",
+  "author": "Yrsa, Inga og Vigdís",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/inb32/Hopverkefni1/issues"
+    "url": "https://github.com/ves/Hopaverkefni_1/issues"
   },
-  "homepage": "https://github.com/inb32/Hopverkefni1#readme",
+  "homepage": "https://github.com/ves14/Hopaverkefni_1#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7"
   },
   "dependencies": {
     "concurrently": "^5.0.0",
+    "lint": "^0.7.0",
     "sass": "^1.23.0",
     "sass-watch": "^0.1.0",
     "stylelint": "^11.1.1",
