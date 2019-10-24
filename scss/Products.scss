@@ -1,0 +1,66 @@
+.vorur {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.vorur__cards__row {
+  margin-top: 20px;
+  margin-bottom: 20px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+
+  
+}
+.vorur__cards__vara{
+    max-width: 33.3%;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.vorur__cards__vara__h2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.vorur__cards__vara p{
+  line-height: 1.2rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.vorur__cards__vara__mynd img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.vorur__cards__vara__teljari__takkar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+.vorur__cards__vara__teljari__takkar__button {
+  
+  display: block;
+  color: black;
+  border-radius: 5px;
+  border-color: black;
+  border: none;
+  transition: all 0.4s ease 0s;
+  margin-left: 20px;
+  
+  
+}
+.vorur__cards__vara__teljari__takkar__button__texti {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.vorur__cards__vara__teljari__takkar__button__texti img {
+  max-height: 1.1rem;
+  padding: 2px;
+}
