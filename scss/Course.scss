@@ -1,0 +1,126 @@
+main{
+max-width: 1200px;
+}
+
+.course{
+    display:flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+
+}
+
+.course h1{
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.course p{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    font-size: 1.125rem;
+    width:100%;
+    justify-content: space-evenly;
+    justify-items: center;
+    font-family: sans-serif;
+}
+
+@media (max-width: 500px){
+    .course{
+        flex-direction: column;
+    }
+}
+
+.course__cards{
+    max-width: 1200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.course__upplysingar:nth-child(3) {
+    order: 4; 
+}
+
+.course__row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+
+
+.course__col__item__info{
+    display: flex;
+    font-size: 1rem;
+    font-family: sans-serif;
+    border-radius: 3px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.course__col__item__input{
+    border: 1px solid;
+    border-radius: 3px;
+    display: inline-flex;
+    line-height: 1.125rem;
+    justify-content: space-between;
+
+}
+
+.course__col .course__col__item {
+    width: 5rem;
+}
+
+.course__col{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+
+.course__img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+.course__button{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    line-height: 2rem;
+    max-width: 40%;
+    max-height: 10%;
+    width: 15rem;
+    height: 100%;
+    transition: 200ms ease-in-out;
+    border-radius: 3px;
+}
+
+@media (max-width: 500px){
+    .course__col{
+        margin-top: 20px;
+    }
+}
