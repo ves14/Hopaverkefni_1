@@ -1,4 +1,4 @@
-# Hópverkefni 
+# Hópverkefni 1
 
 ## Hópur:
 Ingibjörg Birgisdóttir inb32@hi.is  
