@@ -3,7 +3,9 @@
 .staff {
   display: flex;
   flex-direction: row;
-  padding: 0 20px;
+  padding-top: 20px;
+  overflow: hidden;
+  padding-bottom: 5rem;
 
   max-width: 1200px;
   display: flex;
@@ -18,21 +20,20 @@
     margin-left: -10px;
     margin-right: -10px;
     max-width: 1200px;
+    
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
   }
 
-  &__col{
+  &__col {
     max-width: 50%;
     padding-right: 10px;
-    padding-left: 10px;s
+    padding-left: 10px;
     min-width: 50vh;
-    @media(min-with:500px) {
-        min-width: 100vh;
-       
-        
+    @media (min-with: 500px) {
+      min-width: 100vh;
     }
   }
   &__img {
@@ -43,5 +44,48 @@
     height: 100%;
     max-width: 100%;
     width: 100%;
+  }
+  &__card {
+    background-color: transparent;
+    position: relative;
+    text-align: center;
+    &__inline {
+      transform-style: preserve-3d;
+      transition: ease-in-out 200ms;
+      backface-visibility: hidden;
+    }
+    &__inline:hover {
+      transform: rotateY(180deg);
+    }
+
+    &__face {
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+    }
+    &__back {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: absolute;
+      text-align: center;
+      top: 40%;
+      transform: rotateY(180deg);
+      backface-visibility: hidden;
+    }
+  }
+  &__title {
+    
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-bottom: 0.75rem;
+  }
+  &__text {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  &__img{
+    padding:20px 0;
   }
 }

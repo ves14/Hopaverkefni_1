@@ -4,6 +4,7 @@
   display: flex;
   padding: 0 20px;
   max-width: 100vw;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
 
   &__box {
     display: flex;
@@ -40,8 +41,9 @@
       margin: 10px;
       text-decoration: none;
       color: #000000;
+      font-size: 0.75rem;
     }
-    & a:hover {
+    & a:hover{
       color: #fffcf2;
     }
   }
@@ -55,12 +57,14 @@
       text-transform: capitalize;
       font-weight: 500;
       color: #000000;
+      font-size: 0.75rem;
+      padding-left: 0.25rem;
     }
     & a:hover {
       color: #fffcf2;
     }
     & img {
-      height: 70%;
+      height: 50%;
 
     }
   }

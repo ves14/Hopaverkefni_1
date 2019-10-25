@@ -12,13 +12,17 @@
       justify-content: space-between;
       align-content: space-around; }
 
-      .info__cards :nth-child(2) {
+      .info__text__p{
+        font-size: 1rem;
+      }
+
+      .info__cards :nth-of-type(2) {
         order: -1; }
 
       @media (max-width: 500px) {
         .info__cards {
           flex-direction: column; }
-          .info__cards :nth-child(2) {
+          .info__cards :nth-of-child(2) {
             order: 0; } }
 
     .info__card {
@@ -42,14 +46,16 @@
       justify-items: center; }
 
       .info__text h2 {
-        font-family: "Oswald", Verdana, serif; }
+        font-family: "Oswald", Verdana, serif; 
+      font-size: 2.25rem;}
 
     .info__button {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: blue;
+      background-color: #00b7ff;
       border-radius: 3px;
+      border: none;
       max-width: 40%;
       max-height: 10%;
       width: 100%;
@@ -62,7 +68,7 @@
         text-decoration: none; }
 
     .info__button:hover {
-      background-color: #000000; }
+      background-color:#ff5000; }
 
       .info__button:hover a {
         color:94; }
