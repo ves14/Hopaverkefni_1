@@ -1,9 +1,9 @@
 # Hópverkefni 
 
 ## Hópur:
-Ingibjörg Birgisdóttir inb32@hi.is
-Vigdís Erla Sigmundsdóttir ves14@hi.is
-Yrsa Ósk Finnbogadóttir yof3@hi.is
+Ingibjörg Birgisdóttir inb32@hi.is  
+Vigdís Erla Sigmundsdóttir ves14@hi.is  
+Yrsa Ósk Finnbogadóttir yof3@hi.is  
 
 ## SíðurUppsetning verkefnis:
 Forsíða: index.html
@@ -26,6 +26,7 @@ Fótur: footer.scss
 Hópavinnan gekk mjög vel. Við skiptum á milli okkar síðunum og deildum skjölunum á Git (þó að það hafi gegnið mjög erfiðlega) og áttum í samskiptum á slack. Git og node modules voru mikið að stríða okkur og fór dágóður tími í að reyna að fá það allt til að virka.
 
 ## Lýsing á verkefni:
+
 
 
 
