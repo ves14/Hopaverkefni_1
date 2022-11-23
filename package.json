@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/ves14/Hopaverkefni_1#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "concurrently": "^4.1.0"
   },
   "dependencies": {
